@@ -1,7 +1,7 @@
 {
-    "name": "ztf/settings",
-    "description": "библиотека классов настроек",
-    "type": "library",
+    "name": "ztf/traits",
+    "description": "Магические методы унаследовших классов",
+    "keywords": "library",
     "license": "MIT",
     "authors": [
         {
@@ -9,19 +9,12 @@
             "email": "alex-4-17@yandex.ru"
         }
     ],
+    "require": {
+        "php": ">=5.6"
+    },
     "autoload": {
         "psr-4": {
             "Ztf\\Settings\\": "src/Settings/"
         }
-    },
-    "minimum-stability": "stable",
-    "require": {
-        "php": ">=5.6"
-    },
-    "repositories":[
-        {
-            "type":"git",
-            "url":"https://github.com/zorinalexey/ztf-settings"
-        }
-    ]
+    }
 }
