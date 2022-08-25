@@ -1,6 +1,6 @@
 {
     "name": "ztf/settings",
-    "description": "Класс Ztf\\Settings\\Settings",
+    "description": "библиотека классов настроек",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,12 +9,16 @@
             "email": "alex-4-17@yandex.ru"
         }
     ],
-    "require": {
-        "php": ">=5.6"
-    },
     "autoload": {
         "psr-4": {
             "Ztf\\Settings\\": "src/Settings/"
         }
+    },
+    "minimum-stability": "1.0",
+    "require": {
+        "php": ">=5.6"
+        
+    },
+    "require-dev": {
     }
 }
