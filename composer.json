@@ -4,6 +4,7 @@
     "description": "Класс установки и получения настроек",
     "keywords": ["Ztf", "Settings"],
     "homepage": "https://github.com/zorinalexey/ztf-settings",
+    "minimum-stability": "stable",
     "license": "MIT",
     "version": "1.0.0",
     "authors": [
