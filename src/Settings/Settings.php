@@ -2,10 +2,6 @@
 
 namespace Ztf\Settings;
 
-if (!defined('ROOT')) {
-    exit();
-}
-
 /**
  * Класс Settings
  * @version 0.0.1
@@ -17,7 +13,7 @@ if (!defined('ROOT')) {
  */
 class Settings {
 
-    use \traits\magick;
+    use \Ztf\Traits\magick;
 
     /**
      * Хранение настроек конфигурации;
