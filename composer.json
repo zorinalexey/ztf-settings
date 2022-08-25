@@ -1,6 +1,6 @@
 {
     "name": "ztf/traits",
-    "description": "Магические методы унаследовших классов",
+    "description": "Класс Ztf\\Settings\\Settings",
     "keywords": "library",
     "license": "MIT",
     "authors": [
