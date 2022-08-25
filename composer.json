@@ -1,7 +1,7 @@
 {
     "name": "ztf/settings",
     "description": "Класс Ztf\\Settings\\Settings",
-    "keywords": "library",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
