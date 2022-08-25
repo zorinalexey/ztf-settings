@@ -1,10 +1,10 @@
 {
     "name": "ztf/settings",
-    "description": "библиотека классов настроек",
-    "keywords": ["Ztf", "Settings"],
     "type": "library",
+    "description": "Класс установки и получения настроек",
+    "keywords": ["Ztf", "Settings"],
+    "homepage": "https://github.com/zorinalexey/ztf-settings",
     "license": "MIT",
-    "version": "1.0.0",
     "authors": [
         {
             "name": "Зорин Алексей",
@@ -14,20 +14,10 @@
     "autoload": {
         "psr-4": {
             "Ztf\\Settings\\": "src/Settings/"
-        },
-        
-        "classmap": [
-            "src/Settings/"
-        ]
-    },
-    "repositories": [
-        {
-            "type": "library",
-            "url": "https://github.com/zorinalexey/ztf-settings"
         }
-    ],
-    "minimum-stability": "stable",
+    },
     "require": {
         "php": ">=5.6"
-    }
+    },
+    "minimum-stability": "stable"
 }
