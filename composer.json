@@ -14,7 +14,7 @@
             "Ztf\\Settings\\": "src/Settings/"
         }
     },
-    "minimum-stability": "1.0",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=5.6"
     }
