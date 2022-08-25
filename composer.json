@@ -5,6 +5,7 @@
     "keywords": ["Ztf", "Settings"],
     "homepage": "https://github.com/zorinalexey/ztf-settings",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Зорин Алексей",
