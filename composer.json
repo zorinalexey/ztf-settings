@@ -11,8 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Settings\\": "src/Settings/",
-            "traits\\": "traits/"
+            "Ztf\\Settings\\": "src/Settings/"
         }
     },
     "minimum-stability": "stable",
