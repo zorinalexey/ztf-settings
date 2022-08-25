@@ -13,8 +13,6 @@ namespace Ztf\Settings;
  */
 class Settings {
 
-    use \Ztf\Traits\magick;
-
     /**
      * Хранение настроек конфигурации;
      * @var array
