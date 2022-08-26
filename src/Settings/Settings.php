@@ -2,6 +2,8 @@
 
 namespace Ztf\Settings;
 
+use Traits\magick;
+
 /**
  * Класс Settings
  * @version 0.0.1
@@ -12,6 +14,8 @@ namespace Ztf\Settings;
  * Запрещено для комерческого использования без соглосования с автором проекта
  */
 class Settings {
+
+    use magick;
 
     /**
      * Хранение настроек конфигурации;
