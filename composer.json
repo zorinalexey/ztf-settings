@@ -1,16 +1,21 @@
 {
     "name": "ztf/settings",
-    "type": "library",
+    "type": "ztf-bundle",
     "description": "Класс установки и получения настроек",
     "keywords": ["Ztf", "Settings"],
     "homepage": "https://github.com/zorinalexey/ztf-settings",
     "minimum-stability": "stable",
+    "prefer-stable": true,
     "license": "MIT",
     "version": "1.0.0",
+    "support": {
+        "email": "alex-4-17@yandex.ru"
+    },
     "authors": [
         {
             "name": "Зорин Алексей",
-            "email": "alex-4-17@yandex.ru"
+            "email": "alex-4-17@yandex.ru",
+            "role": "Developer"
         }
     ],
     "autoload": {
@@ -20,11 +25,5 @@
     },
     "require": {
         "php": ">=5.6"
-    },
-    "repositories": [
-        {
-            "type": "library",
-            "url": "https://github.com/zorinalexey/ztf-settings"
-        }
-    ]
+    }
 }
